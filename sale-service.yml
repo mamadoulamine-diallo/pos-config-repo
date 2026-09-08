@@ -8,7 +8,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3309/pos_sale_db?createDatabaseIfNotExist=true&serverTimezone=UTC
     username: root
-    password: ${SALE_DB_PASSWORD}
+    password: Chosenprince
 
   jpa:
     hibernate:
