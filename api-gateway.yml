@@ -29,6 +29,10 @@ spring:
               predicates:
                 - Path=/api/v1/sales/**
 
+            - id: activity-service
+              uri: lb://activity-service
+              predicates:
+                - Path=/api/v1/activities/**
 management:
   endpoints:
     web:
